@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: abel;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( 0, rgba(21, 106, 128, 0.726), transparent), url(../image/time.jpg);
+    background-size: cover;
+}
+.container{
+    text-align: center;
+    border-radius: 10px 50px 50px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.425);
+    background-color: white;
+    margin-top: 10%;
+    display: flex;
+}
+.container h1{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.eth #eth{
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    color: azure;
+}
+.globe #globe{
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    color: azure;
+}
+.container .months{
+    background-color: rgb(177, 87, 87);
+    padding: 100px 50px;
+    color: white;
+    border-radius: 0 10px 10px 0;
+}
+.container .days{
+    padding: 50px;
+}
+.container #date{
+    font-size: 100px;
+}
+.container #etdate{
+    font-size: 100px;
+}
+.container .etmonths{
+    background-color: rgb(87, 177, 140);
+    padding: 100px 50px;
+    color: white;
+    border-radius: 0 10px 10px 0;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 70%;
+    padding: 40px;
+    color: white;
+}

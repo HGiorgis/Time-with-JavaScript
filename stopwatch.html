@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stopwatch.css">
+    <title>Time</title>
+</head>
+<body>
+    <div class="container"> 
+       <h1>Stopwatch</h1>
+        <div class="maintimer">
+            <h1 id="maintimer">00:00:00:00</h1>
+        </div>
+        <div class="current-timer">
+            <h2 id="current-timer">00:00:00:00</h2>
+        </div>
+        <div class="table">
+            <table id="data">
+                <thead>
+                    <td>Lap</td>
+                    <td>Lap times</td>
+                    <td>Overall time</td>
+                </thead>
+                <tbody  class="lapT" id="tb">
+                    
+                </tbody>
+                
+            </table>
+        </div>
+        <div class="btns">            
+            <button id="reset" onclick="resetTimer()">Reset</button>
+            <button id="lap" onclick="lapTimer()" disabled>Lap</button>
+            <button onclick="stopTimer()" id="stop">Stop</button>
+            <button onmousedown="startTimer()" id="start">Start</button>
+        </div>
+    </div>
+</body>
+<script src="script/stopwatch.js"></script>
+</html>
